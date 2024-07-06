@@ -1,0 +1,32 @@
+@import url("Estilos/reset.css");
+@import url("Estilos/header.css");
+@import url("main.css");
+@import url(Estilos/encabezado.css);
+@import url(Estilos/sobreMi.css);
+@import url(Estilos/skills.css);
+@import url(Estilos/hobbies.css);
+@import url(Estilos/formAcadem.css);
+@import url(Estilos/experiencia.css);
+@import url(Estilos/contacto.css);
+@import url(Estilos/footer.css);
+
+
+body{
+    background: #F5F5F5;
+    line-height: 1;
+    font-family: "Raleway";
+    color: #464646;
+    overflow-x: hidden;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+a{
+    text-decoration: none;
+    color: #464646;
+}
